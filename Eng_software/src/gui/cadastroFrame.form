@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="confirmButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="344" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="rgLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="cpfLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="phoneLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="birthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="mailLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="stateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="neighborhoodLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lastnameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="birthField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="nameField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="lastnameField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="mailField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="neighborhoodField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="phoneField" max="32767" attributes="0"/>
+                  <Component id="cpfField" max="32767" attributes="0"/>
+                  <Component id="stateComboBox" max="32767" attributes="0"/>
+                  <Component id="rgField" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="cityLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="addressLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="cellphoneLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="cityField" pref="148" max="32767" attributes="0"/>
+                  <Component id="addressField" max="32767" attributes="0"/>
+                  <Component id="cellphoneField" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="145" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lastnameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lastnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rgLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rgField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cpfLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cpfField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="cellphoneLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cellphoneField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="phoneLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="phoneField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="birthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="birthField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mailField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="stateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cityField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stateComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="neighborhoodLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="neighborhoodField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addressField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="35" max="32767" attributes="0"/>
+              <Component id="confirmButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="mailLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-mail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phoneLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="mailField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="joaodasilva@email.com.br"/>
+        <Property name="toolTipText" type="java.lang.String" value="digite um e-mail v&#xe1;lido"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="mailFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="birthLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data de nascimento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cityField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="S&#xe3;o Paulo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="cityFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="neighborhoodField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Centro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="neighborhoodFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cityLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="neighborhoodLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bairro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rgLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="R.G."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="addressLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Endere&#xe7;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cpfLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CPF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="confirmButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirmar Cadastro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="confirmButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastnameField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Silva"/>
+        <Property name="toolTipText" type="java.lang.String" value="Digite seu &#xfa;ltimo nome"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="lastnameFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Jo&#xe3;o"/>
+        <Property name="toolTipText" type="java.lang.String" value="Digite seu primeiro nome"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="nameFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastnameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sobrenome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="birthField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="01/01/2000"/>
+        <Property name="toolTipText" type="java.lang.String" value="Digite sua data de nascimento"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="birthFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="phoneField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(##) ####-####" subtype="-1" type="5"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="(00) 1234-5678"/>
+        <Property name="toolTipText" type="java.lang.String" value="Digite um n&#xfa;mero de telefone com DDD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="phoneFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="cpfField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="###.###.###-##" subtype="-1" type="5"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="111.222.333-00"/>
+        <Property name="toolTipText" type="java.lang.String" value="Digite seu CPF"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="cpfFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="stateComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="27">
+            <StringItem index="0" value="Acre"/>
+            <StringItem index="1" value="Alagoas"/>
+            <StringItem index="2" value="Amap&#xe1;"/>
+            <StringItem index="3" value="Amazonas"/>
+            <StringItem index="4" value="Bahia"/>
+            <StringItem index="5" value="Cear&#xe1;"/>
+            <StringItem index="6" value="Distrito Federal"/>
+            <StringItem index="7" value="Esp&#xed;rito Santo"/>
+            <StringItem index="8" value="Goi&#xe1;s"/>
+            <StringItem index="9" value="Maranh&#xe3;o"/>
+            <StringItem index="10" value="Mato Grosso"/>
+            <StringItem index="11" value="Mato Grosso do Sul"/>
+            <StringItem index="12" value="Minas Gerais"/>
+            <StringItem index="13" value="Paran&#xe1;"/>
+            <StringItem index="14" value="Para&#xed;ba"/>
+            <StringItem index="15" value="Par&#xe1;"/>
+            <StringItem index="16" value="Pernambuco"/>
+            <StringItem index="17" value="Piau&#xed;"/>
+            <StringItem index="18" value="Rio de Janeiro"/>
+            <StringItem index="19" value="Rio Grande do Norte"/>
+            <StringItem index="20" value="Rio Grande do Sul"/>
+            <StringItem index="21" value="Rond&#xf4;nia"/>
+            <StringItem index="22" value="Roraima"/>
+            <StringItem index="23" value="Santa Catarina"/>
+            <StringItem index="24" value="Sergipe"/>
+            <StringItem index="25" value="S&#xe3;o Paulo"/>
+            <StringItem index="26" value="Tocantins"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="addressField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Av. Paulista, 000"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="addressFieldFocusGained"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="rgField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##.###.###" subtype="-1" type="5"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="00.111.999-0"/>
+        <Property name="toolTipText" type="java.lang.String" value="Digite somente os n&#xfa;meros anteriores ao D&#xed;gito um R.G. (Registro Geral) v&#xe1;lido"/>
+        <Property name="selectionEnd" type="int" value="12"/>
+        <Property name="selectionStart" type="int" value="12"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="rgFieldFocusGained"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rgFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cellphoneLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Celular"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="cellphoneField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(##) ####-####" subtype="-1" type="5"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="(00) 1234-5678"/>
+        <Property name="toolTipText" type="java.lang.String" value="Digite um n&#xfa;mero de telefone com DDD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="cellphoneFieldFocusGained"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
